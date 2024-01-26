@@ -13,15 +13,70 @@
     <link rel="stylesheet" href="./css/output.css" />
     <script src="" defer></script>
   </head>
-  <body>
+  <body class="star bg-Very-dark-mostly-black">
+    <style>
+      .star {
+        background-image: url("/images/bg-stars.svg");
+        background-repeat: no-repeat;
+      }
+    </style>
     <header class="flex justify-center items-center w-full py-28 ">
       <section>
-        <p class="text-2xl font-semibold capitalize ">We're launching soon</p>
+        <p class="text-2xl font-semibold capitalize text-cyan-50 ">We're launching soon</p>
       </section>
     </header>
-    <main>
-      <section class=""></section>
+    <main class="w-full h-full">
+        <!-- timer ui -->
+      <section class=" w-full h-full flex justify-center md:gap-14 ">
+        <!-- days -->
+         <div class="">
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-blue flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">08</p>
+            </div>
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-mostly-black flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">08</p>
+            </div>
+            <p class="text-Dark-desaturated-blue font-semibold text-xl capitalize text-center">days</p>
+         </div>
+         <!-- hours -->
+         <div class="">
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-blue flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">23</p>
+            </div>
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-mostly-black flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">23</p>
+            </div>
+            <p class="text-Dark-desaturated-blue font-semibold text-xl capitalize text-center ">hours</p>
+         </div>
+         <!-- mins -->
+         <div class="">
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-blue flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">55</p>
+            </div>
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-mostly-black flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">55</p>
+            </div>
+            <p class="text-Dark-desaturated-blue font-semibold text-xl capitalize text-center">minutes</p>
+         </div>
+         <!-- secs -->
+         <div class="">
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-blue flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">41</p>
+            </div>
+            <div class="rounded-md  shadow-md w-24  h-16  bg-Very-dark-mostly-black flex flex-col items-center justify-center ">
+                <p class="text-Soft-red text-4xl font-semibold ">41</p>
+            </div>
+            <p class="text-Dark-desaturated-blue font-semibold text-xl capitalize text-center ">seconds</p>
+         </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="wall_image w-full h-full ">
+         <style>
+            .wall_image{
+                background-image: url('/images/pattern-hills.svg');
+                background-repeat: no-repeat;
+            }
+         </style>
+    </footer>
   </body>
 </html>
